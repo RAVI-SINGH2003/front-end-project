@@ -1,0 +1,383 @@
+/* font */
+@font-face {
+    font-family: "CodaCaption-ExtraBold";
+    src: url('../fonts/CodaCaption-ExtraBold.ttf');
+}
+*{
+    font-family: 'Roboto', sans-serif;
+    /* border:1px solid black; */
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "CodaCaption-ExtraBold";
+}
+/* body */
+body{
+    margin:0px;
+
+}
+.uni-padding{
+    padding:0% 7%;
+}
+/* topbar */
+#topbar{
+    background-color: #576574;
+    padding-top: 18px;
+    padding-bottom: 18px; 
+    overflow:auto;
+    
+}
+#toll-free{
+    float:left;
+    color: #fdfdfd;
+    margin:0px;
+    margin-top:5px;
+}
+#social-icons{
+    float:right;
+}
+.fa-brands{
+    background-color:#fdfdfd;
+    color:#576574;
+    padding:7px;
+    border-radius: 50%;
+}
+.fa-facebook-f{
+    padding: 7px 10px;
+}
+.fa-whatsapp{
+    padding: 7px 9px;
+
+}
+
+.fa-instagram{
+    padding: 7px 9px;
+}
+
+/* logobar */
+#logobar{
+    overflow:auto;
+    margin:25px 0px;
+}
+#logobar img{
+ 
+        width: 30%;
+ 
+}
+#logobar h1{
+float:right;
+font-size: 3rem;
+}
+
+/* navbar */
+#navbar{
+    background-color: #ee5253;
+}
+#navbar ul li{
+    display:inline-block;
+    padding: 18px 0px;
+    padding-right: 35px;;
+}
+#navbar ul li a{
+    color :white;
+    text-decoration: none;
+    font-size: none;
+}
+#navbar ul{
+    margin:0px;
+    padding:0px;
+}
+
+/* poster */
+#poster{
+    background-image: url('../images/poster.jpg');
+    height:500px;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;color:white;
+}
+#poster h1{
+    font-size:50px;
+}
+#poster p{
+    font-size:18px;
+    text-align: center;
+}
+/* why us section ? */
+#whysection{
+
+    overflow:auto;
+}
+.redheading{
+    color:#ee5253;
+    text-align: center;
+    font-size: 35px;
+    margin-top:50px;
+
+}
+.section33{
+    
+    width:33.33%;
+    float :left;
+    box-sizing:border-box;
+    text-align: center;
+    padding:0px 50px 0px 50px;
+    margin-bottom:50px;
+   
+}
+.section33 h2{
+    color:#ee5253;
+  
+}
+.section33 p{
+   color:#363636;
+}
+
+/* contact */
+#contactcontainer{
+    background-color: #ee5253;
+    color:white;
+    overflow:auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.section70{
+    width:70%;
+    float:left;
+
+}
+.section70 p{
+   text-align: justify;
+
+}
+.section30{
+    width:30%;
+    float:left;
+    text-align: center;
+    padding-top:110px;
+     
+}
+
+#contact-btn{
+    background:white;
+    color:#ee5253;
+    padding:15px 50px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size:18px;
+    font-weight: bold;
+}
+
+/* blogs */
+.section33 img{
+max-width:100%;  /*to make image look good*/
+}
+.section33 a{
+    color:#ee5253;
+    font-size:18px;
+    text-decoration: none;
+    font-family: "CodaCaption-ExtraBold";
+}
+/* subscribe */
+#subscribe-section{
+    background-color: #ee5253;
+    color:white;
+    overflow:auto;
+    padding-top:50px;
+    padding-bottom:40px;
+}
+.section50{
+    width:50%;
+    float:left;
+}
+.section50 h2{
+    font-size:27px;
+    text-align: right;
+    padding-right:50px;
+}
+.section50 form{
+    padding-top:25px;
+}
+.section50 input[type="text"]{
+    padding:10px 15px;
+    font-size:15px;
+    color:#ee5253;
+    margin-right:20px;
+    width:45%;
+    border:0px;
+
+}
+.section50 input[type="submit"]{
+    padding:9px 35px;
+    font-size:15px;
+    color:#ee5253;
+    border:0px;
+
+   
+}
+.section50 input[type="submit"]:hover{
+    cursor:pointer;
+}
+
+
+/* footer */
+#imp-link{
+    background-color: #576574;
+    color:white;
+    overflow:auto;
+}
+.div33{
+width : 33.33%;
+float:left;
+box-sizing: border-box; /*to include padding within width*/
+padding:25px 50px;
+
+
+}
+.div33 h3{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+  
+
+}
+#footer-menu {
+list-style-type:none;
+padding:0px;
+}
+#footer-menu  li{
+    padding-bottom:10px;
+}
+#footer-menu li a{
+    text-decoration: none;
+    color:white;
+}
+#footer-menu-container{
+    padding-left:100px;
+}
+#copyright{
+    background-color: #222f3e;
+    text-align: center;
+    color:#cbcbcb;
+    padding:10px;
+}
+/* responsive ipad */
+@media only screen and (max-width:768px){
+    #navbar ul li {
+        padding-right: 29px;
+    }
+    .section70 {
+    
+        box-sizing: border-box;
+        padding-right: 26px;
+    }
+    .section50 h2 {
+   
+        text-align: center;
+      
+    }
+    #logobar img {
+        width: 40%;
+    }
+}
+@media only screen and (max-width:500px)
+{
+    #logobar {
+        overflow: auto;
+        margin: 12px 10px -17px 15px;
+        padding-left: 56px;
+    }
+    #logobar h1 {
+        float: none;
+        font-size: 2.1rem;
+        margin-top:5px;
+
+    }
+    #logobar img {
+        width: 89%;
+    }
+    #poster{
+        height:275px;
+    }
+    #poster h1 {
+        font-size: 29px;
+        text-align: center;
+    }
+    .section33 ,.div33,.section70,.section30 ,.section50{
+        width:100%;
+    }
+    .section70 {
+      
+      text-align: center;
+      padding-right: 0px;
+    }
+    .section30 {
+       
+        padding-top: 21px;
+        padding-bottom: 20px;
+    }
+    .section70 p {
+        text-align: center;
+    }
+    .section50 h2 {
+       
+        text-align: center;
+       padding-right:0px;
+    }
+    .section50 form {
+        padding-top: 0px;
+    }
+    .div33 {
+        
+        padding: 25px 7px;
+        text-align: center;
+    }
+    #footer-menu-container {
+        padding-left: 0px;
+        padding-top:0px;
+    }
+}
+/* mobile menu */
+#navbar ul #menu-cross,#menu-bar{
+display:none;
+}
+@media only screen and (max-width:500px)
+{
+    #navbar {
+        background-color: #ee5253;
+        position: absolute;
+        top: 0px;
+        height: 100vh;
+        width: 280px;
+        padding: 0px;
+    }
+    #navbar ul li {
+        display: block;
+        padding: 18px 0px;
+        padding-left: 35px;
+        border-bottom: 1px solid #4b5c4b;
+    }
+    #menu-cross{
+        text-align: right;
+    }
+    .fa-solid{
+        font-size:20px;
+        padding-right: 10px;
+    }
+    #navbar{
+       left: -280px; 
+       transition: all 0.5s ease;
+    }
+    #menu-bar{
+         background-color: #ee5253;
+        color:white;
+        padding:18px;
+        font-size: 28px;
+    }
+    #navbar ul #menu-cross,#menu-bar{
+        display:block;
+        }
+}
